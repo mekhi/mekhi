@@ -6,17 +6,17 @@
   <title>Android GridView属性详解 | Mekhi&#39;s Blog</title>
   <meta name="author" content="Mekhi">
   
-  <meta name="description" content="GridView列的相关属性
+  <meta name="description" content="GridView列的相关属性:
 12345android:numColumns=&quot;auto_fit&quot;		//GridView的列数设置为自动android:numColumns=&quot;4&quot;			//GridView的列数设置为4android:columnWidth=&quot;90dp&quot;		//每列的宽度，也就是Item的宽度android:horizontalSpacing=&quot;10dp&quot;	//两列之间的边距为10dpandroid:stretchMode=&quot;columnWidth&quot;	//缩放与列宽大小同步
 
-GridView行的相关属性
+GridView行的相关属性:
 1android:verticalSpacing=&quot;10dp&quot;		//两行之间的边距为10dp
 
-GridView滚动的相关属性
+GridView滚动的相关属性:
 1234android:scrollbars=&quot;none&quot;               //隐藏GridView的滚动条android:fadeScrollbars=&quot;true&quot;		//设置为true就可以实现滚动条的自动隐藏和显示android:fastScrollEnabled=&quot;true&quot;	//GridView出现快速滚动的按钮(至少滚动4页才会显示)android:transcriptMode=&quot;alwaysScroll&quot;   //当动态添加数据时,列表将自动往下滚动最新的条目到可视范围内
 
-GridView其他样式的相关属性```javaandroid:cacheColorHint=”#00000000”    //去除拖动时默认的黑色背景android:listSelector=”#00000000”        //去除选中时的黄色底色android:fadingEdgeLength=”10dip”    //定义的衰落(褪去)边缘的长度android:stackFromBottom=”true”        //设置为true时，你做好的列表就会显示你列表的最下面android:fadingEdge=”none”               //GridView衰落(褪去)边缘颜色为空，缺省值是vertical(可以理解为上下边缘的提示色)android:drawSelectorOnTop=”false”    //点击某条记录不放，颜色会在记录的后面成为背景色,内容的文字可见(缺省为false)
-``">
+GridView其他样式的相关属性:
+123456android:cacheColorHint=&quot;#00000000&quot;	//去除拖动时默认的黑色背景android:listSelector=&quot;#00000000&quot;        //去除选中时的黄色底色android:fadingEdgeLength=&quot;10dip&quot;	//定义的衰落(褪去)边缘的长度android:stackFromBottom=&quot;true&quot;		//设置为true时，你做好的列表就会显示你列表的最下面android:fadingEdge=&quot;none&quot;               //GridView衰落(褪去)边缘颜色为空，缺省值是vertical(可以理解为上下边缘的提示色)android:drawSelectorOnTop=&quot;false&quot;	//点击某条记录不放，颜色会在记录的后面成为背景色,内容的文字可见(缺省为false)">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -106,18 +106,19 @@ GridView其他样式的相关属性```javaandroid:cacheColorHint=”#00000000”
     </header>
     <div class="entry">
       
-        <p><code>GridView</code>列的相关属性</p>
+        <p><code>GridView</code>列的相关属性:</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">android:numColumns=<span class="string">"auto_fit"</span>		<span class="comment">//GridView的列数设置为自动</span></div><div class="line">android:numColumns=<span class="string">"4"</span>			<span class="comment">//GridView的列数设置为4</span></div><div class="line">android:columnWidth=<span class="string">"90dp"</span>		<span class="comment">//每列的宽度，也就是Item的宽度</span></div><div class="line">android:horizontalSpacing=<span class="string">"10dp"</span>	<span class="comment">//两列之间的边距为10dp</span></div><div class="line">android:stretchMode=<span class="string">"columnWidth"</span>	<span class="comment">//缩放与列宽大小同步</span></div></pre></td></tr></table></figure>
 
-<p><code>GridView</code>行的相关属性</p>
+<p><code>GridView</code>行的相关属性:</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">android:verticalSpacing=<span class="string">"10dp"</span>		<span class="comment">//两行之间的边距为10dp</span></div></pre></td></tr></table></figure>
 
-<p><code>GridView</code>滚动的相关属性</p>
+<p><code>GridView</code>滚动的相关属性:</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">android:scrollbars=<span class="string">"none"</span>               <span class="comment">//隐藏GridView的滚动条</span></div><div class="line">android:fadeScrollbars=<span class="string">"true"</span>		<span class="comment">//设置为true就可以实现滚动条的自动隐藏和显示</span></div><div class="line">android:fastScrollEnabled=<span class="string">"true"</span>	<span class="comment">//GridView出现快速滚动的按钮(至少滚动4页才会显示)</span></div><div class="line">android:transcriptMode=<span class="string">"alwaysScroll"</span>   <span class="comment">//当动态添加数据时,列表将自动往下滚动最新的条目到可视范围内</span></div></pre></td></tr></table></figure>
 
-<p><code>GridView</code>其他样式的相关属性<br>```java<br>android:cacheColorHint=”#00000000”    //去除拖动时默认的黑色背景<br>android:listSelector=”#00000000”        //去除选中时的黄色底色<br>android:fadingEdgeLength=”10dip”    //定义的衰落(褪去)边缘的长度<br>android:stackFromBottom=”true”        //设置为true时，你做好的列表就会显示你列表的最下面<br>android:fadingEdge=”none”               //GridView衰落(褪去)边缘颜色为空，缺省值是vertical(可以理解为上下边缘的提示色)<br>android:drawSelectorOnTop=”false”    //点击某条记录不放，颜色会在记录的后面成为背景色,内容的文字可见(缺省为false)</p>
-<p>``<br><a id="more"></a></p>
+<p><code>GridView</code>其他样式的相关属性:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">android:cacheColorHint=<span class="string">"#00000000"</span>	<span class="comment">//去除拖动时默认的黑色背景</span></div><div class="line">android:listSelector=<span class="string">"#00000000"</span>        <span class="comment">//去除选中时的黄色底色</span></div><div class="line">android:fadingEdgeLength=<span class="string">"10dip"</span>	<span class="comment">//定义的衰落(褪去)边缘的长度</span></div><div class="line">android:stackFromBottom=<span class="string">"true"</span>		<span class="comment">//设置为true时，你做好的列表就会显示你列表的最下面</span></div><div class="line">android:fadingEdge=<span class="string">"none"</span>               <span class="comment">//GridView衰落(褪去)边缘颜色为空，缺省值是vertical(可以理解为上下边缘的提示色)</span></div><div class="line">android:drawSelectorOnTop=<span class="string">"false"</span>	<span class="comment">//点击某条记录不放，颜色会在记录的后面成为背景色,内容的文字可见(缺省为false)</span></div></pre></td></tr></table></figure>
 
+<a id="more"></a>
       
     </div>
     <footer>
