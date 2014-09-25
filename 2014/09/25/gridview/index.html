@@ -6,8 +6,8 @@
   <title>Android GridView属性详解 | Mekhi&#39;s Blog</title>
   <meta name="author" content="Mekhi">
   
-  <meta name="description" content="fff’ddd’
-12345android:numColumns=&quot;auto_fit&quot;//GridView的列数设置为自动function Person(name){	this.name = name;}">
+  <meta name="description" content="‘GridView’列的相关属性
+1234android:numColumns=&quot;auto_fit&quot;		//GridView的列数设置为自动android:numColumns=&quot;4&quot;			//GridView的列数设置为4android:columnWidth=”90dp &quot;		//每列的宽度，也">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -97,8 +97,14 @@
     </header>
     <div class="entry">
       
-        <p>fff’ddd’</p>
-<figure class="highlight android"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">android:numColumns=<span class="string">"auto_fit"</span></div><div class="line"><span class="comment">//GridView的列数设置为自动</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Person</span><span class="params">(name)</span></span>{</div><div class="line">	<span class="keyword">this</span>.name = name;</div><div class="line">}</div></pre></td></tr></table></figure>
+        <p>‘GridView’列的相关属性</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">android:numColumns="auto_fit"		//GridView的列数设置为自动</div><div class="line">android:numColumns="4"			//GridView的列数设置为4</div><div class="line">android:columnWidth=”90dp "		//每列的宽度，也就是Item的宽度</div><div class="line">android:horizontalSpacing=”10dp”	//两列之间的边距为10dp</div></pre></td></tr></table></figure>
+
+<p>‘GridView’行的相关属性</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">android:verticalSpacing=”<span class="number">10</span>dp”		<span class="comment">//两行之间的边距为10dp</span></div></pre></td></tr></table></figure>
+
+<p>‘GridView’滚动的相关属性</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">android:scrollbars=<span class="string">"none"</span>               <span class="comment">//隐藏GridView的滚动条</span></div><div class="line">android:fadeScrollbars=<span class="string">"true"</span>		<span class="comment">//设置为true就可以实现滚动条的自动隐藏和显示</span></div><div class="line">android:fastScrollEnabled=<span class="string">"true"</span>	<span class="comment">//GridView出现快速滚动的按钮(至少滚动4页才会显示)</span></div><div class="line">android:transcriptMode=<span class="string">"alwaysScroll"</span>   <span class="comment">//当你动态添加数据时，列表将自动往下滚动最新的条目可以自动滚动到可视范围内</span></div></pre></td></tr></table></figure>
 
 
       
