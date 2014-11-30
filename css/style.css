@@ -477,6 +477,9 @@ article .entry video {
   max-width: 100%;
   height: auto;
   border: none;
+  -webkit-box-shadow: 2px 2px 3px #aaa;
+  -moz-box-shadow: 2px 2px 3px #aaa;
+  box-shadow: 2px 2px 3px #aaa;
 }
 article .entry iframe {
   border: none;
