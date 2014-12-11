@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2014/09/11/hello-world/</loc>
+    <lastmod>2014-12-11T11:48:14.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2014/11/30/godaddy-refund/</loc>
     <lastmod>2014-12-07T12:04:20.000Z</lastmod>
   </url>
@@ -14,11 +19,6 @@
   <url>
     <loc>http://yoursite.com/about/index.html</loc>
     <lastmod>2014-09-25T05:56:58.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2014/12/11/hello-world/</loc>
-    <lastmod>2014-09-25T04:54:40.000Z</lastmod>
   </url>
   
   <url>
